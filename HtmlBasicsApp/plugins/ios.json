@@ -1,0 +1,72 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.htmlbasicsapp"
+        }
+    },
+    "dependent_plugins": {}
+}
