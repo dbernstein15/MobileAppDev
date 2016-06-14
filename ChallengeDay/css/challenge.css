@@ -1,0 +1,51 @@
+ul
+{
+    list-style-type: none;
+}
+
+.cellNames
+{
+    background-color: red;
+    display: inline-block;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 10px 10px 30px 10px;
+    width: 70px;
+    margin-right: -10px;
+}
+
+.cellPlaces
+{
+    background-color: aqua;
+    display: inline-block;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 10px 10px 30px 10px;
+    width: 70px;
+    margin-right: -10px;
+}
+
+.cellThings
+{
+    background-color: yellow;
+    display: inline-block;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 10px 10px 30px 10px;
+    width: 70px;
+    margin-right: -10px;
+}
+
+.x
+{
+    border: .5px solid black;
+    display: block;
+    width: 100%;
+    font-weight: 100;
+}
+
+.nameList
+{
+    list-style: disc;
+}
+
