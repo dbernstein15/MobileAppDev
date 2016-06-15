@@ -49,3 +49,9 @@ ul
     list-style: disc;
 }
 
+button
+{
+    background-color: white;
+    border: none;
+}
+

@@ -1,5 +1,4 @@
-function generateTable()
-{
+
     var myData =
 	{
 		items: 
@@ -10,7 +9,9 @@ function generateTable()
 			{ name: "Sam", place: "Italy", thing: "Paper"}
 		]
 	};
-    
+
+function generateTable()
+{
     var output ="";
     output = "<ul class='table'>";
     for (var i=0; i< myData.items.length; i++)
@@ -24,18 +25,7 @@ function generateTable()
 }
 
 function generateList()
-{
-    var myData =
-	{
-		items: 
-		[
-			{ name: "Names", place: "Places", thing: "Things"},
-			{ name: "James", place: "Paris", thing: "Books"},
-			{ name: "Laura", place: "Mexico", thing: "Chairs"},
-			{ name: "Sam", place: "Italy", thing: "Paper"}
-		]
-	};
-    
+{ 
     var output = "";
     output = "<ul class = 'list'>";
     for (var i=1; i<myData.items.length; i++)
@@ -49,24 +39,22 @@ function generateList()
 }
 
 function generateNextList()
-{
-   var myData =
-	{
-		items: 
-		[
-			{ name: "Names", place: "Places", thing: "Things"},
-			{ name: "James", place: "Paris", thing: "Books"},
-			{ name: "Laura", place: "Mexico", thing: "Chairs"},
-			{ name: "Sam", place: "Italy", thing: "Paper"}
-		]
-	};
-    
+{   
     var output = "";
     output = "<ul class = 'nameList'>";
     for (var i=1; i<myData.items.length; i++)
         {
-            output += '<span class = "names"> <li>' + myData.items[i].name + '</li> </span>';
+            output += '<li> <button id = "btn' + myData.items[i].name + ' onclick = "display(' + i + ');>' + myData.items[i].name + '</button> </li>';
+            
         }
-    output += '<ul>';
+    output += '</ul>';
     document.getElementById('name').innerHTML = output;
+}
+
+function display(index)
+{   
+    output = "";
+    output += myData.items[index].name + " - " + myData.items[index].place + " - " +    
+            myData.items[index].thing;
+    document.getElementById('name1').innerHTML = output;
 }
