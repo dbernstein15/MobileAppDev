@@ -104,7 +104,7 @@ function showTrainsQuery(result)
     
     output += "<h2>Southbound</h2>";
     for (i=0; i<southbound.length; i++)
-        output += '<span class = "row border"> <span class = "cell border blue">' + southbound[i].train_id + "</span> <span class = 'cell border red'>" + southbound[i].destination + "</span> <span class = 'cell border blue'>" + southbound[i].depart_time + "</span></span>";
+        output += '<span class = "row border"> <span class = "cell border red">' + southbound[i].train_id + "</span> <span class = 'cell border blue'>" + southbound[i].destination + "</span> <span class = 'cell border red'>" + southbound[i].depart_time + "</span></span>";
     
     document.getElementById('resultTrains').innerHTML = output;
 }
