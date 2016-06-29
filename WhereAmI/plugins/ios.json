@@ -1,0 +1,72 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.whereami"
+        }
+    },
+    "dependent_plugins": {}
+}

@@ -1,0 +1,72 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "edu.bernstein.danielle.mediaapp"
+        }
+    },
+    "dependent_plugins": {}
+}
