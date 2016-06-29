@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel='stylesheet' href='http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css' />
+        <script src='http://code.jquery.com/jquery-1.11.1.min.js'></script>
+        <script src='http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+        <script type='text/javascript' src='cordova.js'></script>
+
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+
+        <title>Pack It</title>
+    </head>
+
+<body>
+    <div data-role = 'page' id = 'basics'>
+        <div data-role = 'header' data-position = 'fixed'>
+            <h1>Basics</h1>
+            <a href = '#miscellaneous' class = 'ui-btn ui-btn-right ui-btn-icon-right ui-icon-carat-r'>Next</a>
+            <div data-role = 'navbar'>
+                <ul>
+                    <li> <a href = '#' class = 'ui-btn-active ui-state-persist'>Basics</a></li>
+                    <li> <a href = '#miscellaneous'>Misellaneous</a></li>
+                    <li> <a href = '#clothes'>Clothes</a></li>
+                    <li> <a href = '#hygiene'>Hygiene</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role = 'main' class = 'ui-content'>
+            <p></p>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Travel Aids</legend>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'pleasure'/>
+                <label for = 'pleasure'>Pleasure Reading</label>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'gum'/>
+                <label for = 'gum'>Chewing Gum</label>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'snacks'/>
+                <label for = 'snacks'>Snacks</label>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'water'/>
+                <label for = 'water'>Bottled Water</label>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'earplugs'/>
+                <label for = 'earplugs'>Earplugs</label>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'mask'/>
+                <label for = 'mask'>Sleeping Mask</label>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'pillow'/>
+                <label for = 'pillow'>Travel Pillow</label>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'motion'/>
+                <label for = 'motion'>Motion Sickness Remedy</label>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'sleeping'/>
+                <label for = 'sleeping'>Sleeping Pills</label>
+                
+                <input type = 'checkbox' name = 'travelAids' id = 'anxiety'/>
+                <label for = 'anxiety'>Anxiety Medication</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Funds</legend>
+                
+                <input type = 'checkbox' name = 'funds' id = 'wallet'/>
+                <label for = 'wallet'>Wallet</label>
+                
+                <input type = 'checkbox' name = 'funds' id = 'cash'/>
+                <label for = 'cash'>Cash</label>
+                
+                <input type = 'checkbox' name = 'funds' id = 'credit'/>
+                <label for = 'credit'>Credit Cards</label>
+                
+                <input type = 'checkbox' name = 'funds' id = 'atm'/>
+                <label for = 'atm'>ATM Cards</label>
+                
+                <input type = 'checkbox' name = 'funds' id = 'checks'/>
+                <label for = 'checks'>Traveler's Checks</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Travel Info</legend>
+                
+                <input type = 'checkbox' name = 'travelInfo' id = 'visas'/>
+                <label for = 'visas'>Passport & Visas</label>
+                
+                <input type = 'checkbox' name = 'travelInfo' id = 'license'/>
+                <label for = 'license'>Driver's License</label>
+                
+                <input type = 'checkbox' name = 'travelInfo' id = 'itinerary'/>
+                <label for = 'itinerary'>Itinerary</label>
+                
+                <input type = 'checkbox' name = 'travelInfo' id = 'maps'/>
+                <label for = 'maps'>Maps & Directions</label>
+                
+                <input type = 'checkbox' name = 'travelInfo' id = 'tickets'/>
+                <label for = 'tickets'>Travel Tickets</label>
+                
+                <input type = 'checkbox' name = 'travelInfo' id = 'confirmations'/>
+                <label for = 'confirmation'>Travel Confirmations</label>
+                
+                <input type = 'checkbox' name = 'travelInfo' id = 'membership'/>
+                <label for = 'membership'>Travel Membership Cards</label>
+                
+                <input type = 'checkbox' name = 'travelInfo' id = 'guides'/>
+                <label for = 'guides'>Travel Guides</label>
+            </fieldset>
+        </div>
+    </div> <!-- Basics Page -->
+    
+    <div data-role = 'page' id = 'miscellaneous'>
+        <div data-role = 'header' data-position = 'fixed'>
+            <a href = '#basics' class = 'ui-btn ui-btn-left ui-btn-icon-left ui-icon-carat-l'>Previous</a>
+            <h1>Miscellaneous</h1>
+            <a href = '#clothes' class = 'ui-btn ui-btn-right ui-btn-icon-right ui-icon-carat-r'>Next</a>
+            <div data-role = 'navbar'>
+                <ul>
+                    <li> <a href = '#basics'>Basics</a></li>
+                    <li> <a href = '#' class = 'ui-btn-active ui-state-persist'>Miscellaneous</a></li>
+                    <li> <a href = '#clothes'>Clothes</a></li>
+                    <li> <a href = '#hygiene'>Hygiene</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role = 'main' class = 'ui-content'>
+            <p></p>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Documents</legend>
+                
+                <input type = 'checkbox' name = 'documents' id = 'docs'/>
+                <label for = 'docs'>Copies of Travel Docs</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'cards'/>
+                <label for = 'cards'>Copies of Credit Cards</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'passport'/>
+                <label for = 'passport'>Copies of Passport</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'creditInfo'/>
+                <label for = 'creditInfo'>Credit Card Contact Info</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'emergency'/>
+                <label for = 'emergency'>Emergency Contact Info</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'medical'/>
+                <label for = 'medical'>Medical Insurance Card</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'history'/>
+                <label for = 'history'>Medical History</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'medications'/>
+                <label for = 'medications'>List of Medications</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'prescriptions'/>
+                <label for = 'prescriptions'>Prescriptions</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'insurance'/>
+                <label for = 'insurance'>Travel Insurance</label>
+                
+                <input type = 'checkbox' name = 'documents' id = 'car'/>
+                <label for = 'car'>Car Insurance Card</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Bags</legend>
+                
+                <input type = 'checkbox' name = 'bags' id = 'backpack'/>
+                <label for = 'backpack'>Backpack/Daybag</label>
+                
+                <input type = 'checkbox' name = 'bags' id = 'purses'/>
+                <label for = 'purses'>Purses</label>
+                
+                <input type = 'checkbox' name = 'bags' id = 'tote'/>
+                <label for = 'tote'>Collapsible Tote</label>
+                
+                <input type = 'checkbox' name = 'bags' id = 'belt'/>
+                <label for = 'belt'>Money Belt</label>
+                
+                <input type = 'checkbox' name = 'bags' id = 'straps'/>
+                <label for = 'straps'>Shoulder Straps</label>
+                
+                <input type = 'checkbox' name = 'bags' id = 'plastic'/>
+                <label for = 'plastic'>Plastic Bags</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Laundry</legend>
+                
+                <input type = 'checkbox' name = 'laundry' id = 'bag'/>
+                <label for = 'bag'>Laundry Bag</label>
+                
+                <input type = 'checkbox' name = 'laundry' id = 'kit'/>
+                <label for = 'kit'>Laundry Kit</label>
+                
+                <input type = 'checkbox' name = 'laundry' id = 'remover'/>
+                <label for = 'remover'>Stain Remover</label>
+                
+                <input type = 'checkbox' name = 'laundry' id = 'sewing'/>
+                <label for = 'sewing'>Sewing Kit</label>
+                
+                <input type = 'checkbox' name = 'laundry' id = 'iron'/>
+                <label for = 'iron'>Travel Iron</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Miscellaneous</legend>
+                
+                <input type = 'checkbox' name = 'miscellaneous' id = 'umbrella'/>
+                <label for = 'umbrella'>Umbrella</label>
+                
+                <input type = 'checkbox' name = 'miscellaneous' id = 'keys'/>
+                <label for = 'keys'>House Keys</label>
+                
+                <input type = 'checkbox' name = 'miscellaneous' id = 'locks'/>
+                <label for = 'locks'>Travel Locks & Keys</label>
+                
+                <input type = 'checkbox' name = 'miscellaneous' id = 'tags'/>
+                <label for = 'tags'>Luggage Tags</label>
+                
+                <input type = 'checkbox' name = 'miscellaneous' id = 'gifts'/>
+                <label for = 'gifts'>Hospitality Gifts</label>
+                
+                <input type = 'checkbox' name = 'miscellaneous' id = 'journal'/>
+                <label for = 'journal'>Journal</label>
+                
+                <input type = 'checkbox' name = 'miscellaneous' id = 'sports'/>
+                <label for = 'sports'>Sports Gear</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Contacts</legend>
+                
+                <input type = 'checkbox' name = 'contacts' id = 'address'/>
+                <label for = 'address'>Address Book</label>
+                
+                <input type = 'checkbox' name = 'contacts' id = 'numbers'/>
+                <label for = 'numbers'>Important Numbers</label>
+                
+                <input type = 'checkbox' name = 'contacts' id = 'datebook'/>
+                <label for = 'datebook'>Datebook</label>
+                
+                <input type = 'checkbox' name = 'contacts' id = 'business'/>
+                <label for = 'business'>Business Cards</label>
+                
+                <input type = 'checkbox' name = 'contacts' id = 'calling'/>
+                <label for = 'calling'>Calling Card</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Technology</legend>
+                
+                <input type = 'checkbox' name = 'tech' id = 'cell'/>
+                <label for = 'cell'>Cell Phone & Charger</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'pda'/>
+                <label for = 'pda'>PDA & Charger</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'laptop'/>
+                <label for = 'laptop'>Laptop & Charger</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'camera'/>
+                <label for = 'camera'>Camera & Charger</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'film'/>
+                <label for = 'film'>Film</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'music'/>
+                <label for = 'music'>Music & Player</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'headphones'/>
+                <label for = 'headphones'>Headphones</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'voltage'/>
+                <label for = 'voltage'>Voltage Adaptors</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'batteries'/>
+                <label for = 'batteries'>Batteries</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'flashlight'/>
+                <label for = 'flashlight'>Flashlight</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'binoculars'/>
+                <label for = 'binoculars'>Binoculars</label>
+                
+                <input type = 'checkbox' name = 'tech' id = 'alarm'/>
+                <label for = 'alarm'>Alarm Clock</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Work</legend>
+                
+                <input type = 'checkbox' name = 'work' id = 'documents'/>
+                <label for = 'documents'>Work Documents</label>
+                
+                <input type = 'checkbox' name = 'work' id = 'reading'/>
+                <label for = 'reading'>Work Reading</label>
+                
+                <input type = 'checkbox' name = 'work' id = 'office'/>
+                <label for = 'office'>Office Supplies</label>
+                
+                <input type = 'checkbox' name = 'work' id = 'notebook'/>
+                <label for = 'notebook'>Notebook</label>
+            </fieldset>
+        </div>
+    </div> <!-- Miscellaneous Page -->
+    
+    <div data-role = 'page' id = 'clothes'>
+        <div data-role = 'header' data-position = 'fixed'>
+            <a href = '#miscellaneous' class = 'ui-btn ui-btn-left ui-btn-icon-left ui-icon-carat-l'>Previous</a>
+            <h1>Clothes</h1>
+            <a href = '#hygiene' class = 'ui-btn ui-btn-right ui-btn-icon-right ui-icon-carat-r'>Next</a>
+            <div data-role = 'navbar'>
+                <ul>
+                    <li> <a href = '#basics'>Basics</a></li>
+                    <li> <a href = '#miscellaneous'>Misellaneous</a></li>
+                    <li> <a href = '#' class = 'ui-btn-active ui-state-persist'>Clothes</a></li>
+                    <li> <a href = '#hygiene'>Hygiene</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role = 'main' class = 'ui-content'>
+            <p></p>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Basics</legend>
+                
+                <input type = 'checkbox' name = 'cBasics' id = 'underwear'/>
+                <label for = 'underwear'>Underwear</label>
+                
+                <input type = 'checkbox' name = 'cBasics' id = 'socks'/>
+                <label for = 'socks'>Socks</label>
+                
+                <input type = 'checkbox' name = 'cBasics' id = 'undershirts'/>
+                <label for = 'undershirts'>Undershirts</label>
+                
+                <input type = 'checkbox' name = 'cBasics' id = 'bras'/>
+                <label for = 'bras'>Bras</label>
+                
+                <input type = 'checkbox' name = 'cBasics' id = 'pantyhose'/>
+                <label for = 'pantyhose'>Pantyhose</label>
+                
+                <input type = 'checkbox' name = 'cBasics' id = 'sleepwear'/>
+                <label for = 'sleepwear'>Sleepwear</label>
+                
+                <input type = 'checkbox' name = 'cBasics' id = 'robe'/>
+                <label for = 'robe'>Robe</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Dressy</legend>
+                
+                <input type = 'checkbox' name = 'dressy' id = 'shirts'/>
+                <label for = 'shirts'>Dress Shirts</label>
+                
+                <input type = 'checkbox' name = 'dressy' id = 'sweaters'/>
+                <label for = 'sweaters'>Sweaters</label>
+                
+                <input type = 'checkbox' name = 'dressy' id = 'blazers'/>
+                <label for = 'blazers'>Blazers</label>
+                
+                <input type = 'checkbox' name = 'dressy' id = 'slacks'/>
+                <label for = 'slacks'>Slacks</label>
+                
+                <input type = 'checkbox' name = 'dressy' id = 'skirts'/>
+                <label for = 'skirts'>Skirts</label>
+                
+                <input type = 'checkbox' name = 'dressy' id = 'dresses'/>
+                <label for = 'dresses'>Dresses</label>
+                
+                <input type = 'checkbox' name = 'dressy' id = 'suits'/>
+                <label for = 'suits'>Suits</label>
+                
+                <input type = 'checkbox' name = 'dressy' id = 'tuxedo'/>
+                <label for = 'tuxedo'>Tuxedo</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Outerwear</legend>
+                
+                <input type = 'checkbox' name = 'outerwear' id = 'jackets'/>
+                <label for = 'jackets'>Jackets</label>
+                
+                <input type = 'checkbox' name = 'outerwear' id = 'coats'/>
+                <label for = 'coats'>Coats</label>
+                
+                <input type = 'checkbox' name = 'outerwear' id = 'raincoats'/>
+                <label for = 'raincoats'>Raincoats</label>
+                
+                <input type = 'checkbox' name = 'outerwear' id = 'hats'/>
+                <label for = 'hats'>Hats</label>
+                
+                <input type = 'checkbox' name = 'outerwear' id = 'gloves'/>
+                <label for = 'gloves'>Gloves</label>
+                
+                <input type = 'checkbox' name = 'outerwear' id = 'scarves'/>
+                <label for = 'scarves'>Scarves</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Casual</legend>
+                
+                <input type = 'checkbox' name = 'casual' id = 'tshirts'/>
+                <label for = 'tshirts'>Tshirts</label>
+                
+                <input type = 'checkbox' name = 'casual' id = 'tanks'/>
+                <label for = 'tanks'>Tank Tops</label>
+                
+                <input type = 'checkbox' name = 'casual' id = 'sweatshirts'/>
+                <label for = 'sweatshirts'>Sweatshirts</label>
+                
+                <input type = 'checkbox' name = 'casual' id = 'jeans'/>
+                <label for = 'jeans'>Jeans</label>
+                
+                <input type = 'checkbox' name = 'casual' id = 'shorts'/>
+                <label for = 'shorts'>Shorts</label>
+                
+                <input type = 'checkbox' name = 'casual' id = 'exercise'/>
+                <label for = 'exercise'>Exercise Clothing</label>
+                
+                <input type = 'checkbox' name = 'casual' id = 'swimsuits'/>
+                <label for = 'swimsuits'>Swimsuits</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Footwear</legend>
+                
+                <input type = 'checkbox' name = 'footwear' id = 'athletic'/>
+                <label for = 'athletic'>Athletic Shoes</label>
+                
+                <input type = 'checkbox' name = 'footwear' id = 'leisure'/>
+                <label for = 'leisure'>Leisure Shoes</label>
+                
+                <input type = 'checkbox' name = 'footwear' id = 'dress'/>
+                <label for = 'dress'>Dress Shoes</label>
+                
+                <input type = 'checkbox' name = 'footwear' id = 'sandals'/>
+                <label for = 'sandals'>Sandals/Flip Flops</label>
+                
+                <input type = 'checkbox' name = 'footwear' id = 'slippers'/>
+                <label for = 'slippers'>Slippers</label>
+            </fieldset>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Accessories</legend>
+                
+                <input type = 'checkbox' name = 'accessories' id = 'belts'/>
+                <label for = 'belts'>Belts</label>
+                
+                <input type = 'checkbox' name = 'accessories' id = 'ties'/>
+                <label for = 'ties'>Ties</label>
+                
+                <input type = 'checkbox' name = 'accessories' id = 'watches'/>
+                <label for = 'watches'>Wristwatches</label>
+                
+                <input type = 'checkbox' name = 'accessories' id = 'jewelry'/>
+                <label for = 'jewelry'>Jewelry</label>
+                
+                <input type = 'checkbox' name = 'accessories' id = 'glasses'/>
+                <label for = 'glasses'>Glasses</label>
+                
+                <input type = 'checkbox' name = 'accessories' id = 'sunglasses'/>
+                <label for = 'sunglasses'>Sunglasses</label>
+                
+                <input type = 'checkbox' name = 'accessories' id = 'readingGlasses'/>
+                <label for = 'readingGlasses'>Reading Glasses</label>
+                
+                <input type = 'checkbox' name = 'accessories' id = 'cases'/>
+                <label for = 'cases'>Glasses Cases</label>
+            </fieldset>
+        </div>
+    </div> <!-- Clothes Page -->
+    
+    <div data-role = 'page' id = 'hygiene'>
+        <div data-role = 'header' data-position = 'fixed'>
+            <a href = '#clothes' class = 'ui-btn ui-btn-left ui-btn-icon-left ui-icon-carat-l'>Previous</a>
+            <h1>Hygiene</h1>
+            <div data-role = 'navbar'>
+                <ul>
+                    <li> <a href = '#basics'>Basics</a></li>
+                    <li> <a href = '#miscellaneous'>Misellaneous</a></li>
+                    <li> <a href = '#clothes'>Clothes</a></li>
+                    <li> <a href = '#' class = 'ui-btn-active ui-state-persist'>Hygiene</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role = 'main' class = 'ui-content'>
+            <p></p>
+            
+            <fieldset data-role = 'controlgroup'>
+                <legend>Hygiene</legend>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'toothbrush'/>
+                <label for = 'toothbrush'>Toothbrush</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'toothpaste'/>
+                <label for = 'toothpaste'>Toothpaste</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'floss'/>
+                <label for = 'floss'>Dental Floss</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'mouthwash'/>
+                <label for = 'mouthwash'>Mouthwash</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'soap'/>
+                <label for = 'soap'>Soap</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'washcloth'/>
+                <label for = 'washcloth'>washcloth</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'deodorant'/>
+                <label for = 'deodorant'>Deodorant</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'shampoo'/>
+                <label for = 'shampoo'>Shampoo</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'conditioner'/>
+                <label for = 'conditioner'>Conditioner</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'brush'/>
+                <label for = 'brush'>Brush</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'comb'/>
+                <label for = 'comb'>Comb</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'dryer'/>
+                <label for = 'dryer'>Hair Dryer</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'curling'/>
+                <label for = 'curling'>Curling/Flat Iron</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'styling'/>
+                <label for = 'styling'>Styling Products</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'hair'/>
+                <label for = 'hair'>Hair Accessories</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'mirror'/>
+                <label for = 'mirror'>Mirror</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'cleanser'/>
+                <label for = 'cleanser'>Cleanser</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'sunscreen'/>
+                <label for = 'sunscreen'>Sunscreen</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'moisturizer'/>
+                <label for = 'moisturizer'>Moisturizer</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'lip'/>
+                <label for = 'lip'>Lip Balm</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'contact'/>
+                <label for = 'contact'>Contact Lenses & Case</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'saline'/>
+                <label for = 'saline'>Saline Solution</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'shaving'/>
+                <label for = 'shaving'>Shaving Cream</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'razor'/>
+                <label for = 'razor'>Razor</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'perfume'/>
+                <label for = 'perfume'>Perfume/Cologne</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'makeup'/>
+                <label for = 'makeup'>Makeup</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'remover'/>
+                <label for = 'remover'>Makeup Remover</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'birth'/>
+                <label for = 'birth'>Birth Control</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'feminine'/>
+                <label for = 'feminine'>Feminine Hygiene</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'clippers'/>
+                <label for = 'clippers'>Nail Clippers</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'file'/>
+                <label for = 'file'>Nail File</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'polish'/>
+                <label for = 'polish'>Nail Polish</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'polishRemover'/>
+                <label for = 'polishRemover'>Nail Polish Remover</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'wipes'/>
+                <label for = 'wipes'>Hand Wipes</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'tissues'/>
+                <label for = 'tissues'>Tissues</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'balls'/>
+                <label for = 'balls'>Cotton Balls</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'swabs'/>
+                <label for = 'swabs'>Cotton Swabs</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'tweezers'/>
+                <label for = 'tweezers'>Tweezers</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'lint'/>
+                <label for = 'lint'>Lint Roller</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'insect'/>
+                <label for = 'insect'>Insect Repellent</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'medications'/>
+                <label for = 'medications'>Medications</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'pain'/>
+                <label for = 'pain'>Pain Reliever</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'vitamins'/>
+                <label for = 'vitamins'>Vitamins</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'first-aid'/>
+                <label for = 'first-aid'>First-Aid Kit</label>
+                
+                <input type = 'checkbox' name = 'hygiene' id = 'band-aids'/>
+                <label for = 'band-aids'>Band-Aids</label>
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+</html>
