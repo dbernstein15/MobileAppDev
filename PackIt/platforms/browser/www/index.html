@@ -25,8 +25,9 @@
 <body>
     <div data-role = 'page' id = 'basics'>
         <div data-role = 'header' data-position = 'fixed'>
+            <button class = 'ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-delete' onclick = 'clear()'>Clear</button>
             <h1>Basics</h1>
-            <a href = '#miscellaneous' class = 'ui-btn ui-btn-right ui-btn-icon-right ui-icon-carat-r'>Next</a>
+            <button class = 'ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-check' onclick = 'saveIt()'>Save</button>
             <div data-role = 'navbar'>
                 <ul>
                     <li> <a href = '#' class = 'ui-btn-active ui-state-persist'>Basics</a></li>
@@ -125,9 +126,9 @@
     
     <div data-role = 'page' id = 'miscellaneous'>
         <div data-role = 'header' data-position = 'fixed'>
-            <a href = '#basics' class = 'ui-btn ui-btn-left ui-btn-icon-left ui-icon-carat-l'>Previous</a>
+            <button class = 'ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-delete' onclick = 'clear()'>Clear</button>
             <h1>Miscellaneous</h1>
-            <a href = '#clothes' class = 'ui-btn ui-btn-right ui-btn-icon-right ui-icon-carat-r'>Next</a>
+            <button class = 'ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-check' onclick = 'saveIt()'>Save</button>
             <div data-role = 'navbar'>
                 <ul>
                     <li> <a href = '#basics'>Basics</a></li>
@@ -323,9 +324,9 @@
     
     <div data-role = 'page' id = 'clothes'>
         <div data-role = 'header' data-position = 'fixed'>
-            <a href = '#miscellaneous' class = 'ui-btn ui-btn-left ui-btn-icon-left ui-icon-carat-l'>Previous</a>
+            <button class = 'ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-delete' onclick = 'clear()'>Clear</button>
             <h1>Clothes</h1>
-            <a href = '#hygiene' class = 'ui-btn ui-btn-right ui-btn-icon-right ui-icon-carat-r'>Next</a>
+            <button class = 'ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-check' onclick = 'saveIt()'>Save</button>
             <div data-role = 'navbar'>
                 <ul>
                     <li> <a href = '#basics'>Basics</a></li>
@@ -490,8 +491,9 @@
     
     <div data-role = 'page' id = 'hygiene'>
         <div data-role = 'header' data-position = 'fixed'>
-            <a href = '#clothes' class = 'ui-btn ui-btn-left ui-btn-icon-left ui-icon-carat-l'>Previous</a>
+            <button class = 'ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-delete' onclick = 'clear()'>Clear</button>
             <h1>Hygiene</h1>
+            <button class = 'ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-check' onclick = 'saveIt()'>Save</button>
             <div data-role = 'navbar'>
                 <ul>
                     <li> <a href = '#basics'>Basics</a></li>
@@ -644,7 +646,7 @@
                 <label for = 'band-aids'>Band-Aids</label>
             </fieldset>
         </div>
-    </div>
+    </div> <!-- Hygiene Page -->
 </body>
 
 </html>
